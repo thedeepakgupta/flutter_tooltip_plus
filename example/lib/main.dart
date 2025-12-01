@@ -36,24 +36,76 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Center(
+      body: Padding(
+        padding: const EdgeInsets.all(14.0),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
-            FlutterTooltip(
-              background: Colors.amber,
-              borderRadius: BorderRadius.circular(12),
-              padding: EdgeInsets.all(12),
-              content: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Text(
-                    "Tool tip content",
-                    style: TextStyle(color: Colors.black),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                FlutterTooltip(
+                  borderRadius: BorderRadius.circular(8),
+                  padding: EdgeInsets.all(12),
+                  content: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        "Left tooltip data",
+                        style: TextStyle(color: Colors.white),
+                      ),
+                    ],
                   ),
-                ],
-              ),
-              child: Icon(Icons.info_outline_rounded),
+                  child: Icon(Icons.info_outline_rounded),
+                ),
+                FlutterTooltip(
+                  borderRadius: BorderRadius.circular(8),
+                  padding: EdgeInsets.all(12),
+                  content: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        "Right tooltip data",
+                        style: TextStyle(color: Colors.white),
+                      ),
+                    ],
+                  ),
+                  child: Icon(Icons.info_outline_rounded),
+                ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                FlutterTooltip(
+                  borderRadius: BorderRadius.circular(8),
+                  padding: EdgeInsets.all(12),
+                  content: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        "Left bottom tooltip data",
+                        style: TextStyle(color: Colors.white),
+                      ),
+                    ],
+                  ),
+                  child: Icon(Icons.info_outline_rounded),
+                ),
+                FlutterTooltip(
+                  borderRadius: BorderRadius.circular(8),
+                  padding: EdgeInsets.all(12),
+                  content: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        "Right bottom tooltip data",
+                        style: TextStyle(color: Colors.white),
+                      ),
+                    ],
+                  ),
+                  child: Icon(Icons.info_outline_rounded),
+                ),
+              ],
             ),
           ],
         ),
