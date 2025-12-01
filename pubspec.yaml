@@ -2,6 +2,7 @@ name: flutter_tooltip_plus
 description: "A lightweight and customizable Flutter tooltip widget for displaying helpful hints and contextual information in a beautiful way."
 version: 0.0.1
 homepage: "https://github.com/thedeepakgupta"
+repository: "https://github.com/thedeepakgupta/flutter_tooltip_plus"
 
 environment:
   sdk: ^3.8.0

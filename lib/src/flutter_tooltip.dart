@@ -80,7 +80,6 @@ class FlutterTooltipState extends State<FlutterTooltip> with SingleTickerProvide
   /// Minimum height constraint for the tooltip widget.
   final _tooltipMinimumHeight = 140;
 
-
   /// Shows or hides the tooltip overlay with animation.
   void _toggle() {
     _delayTimer?.cancel();
