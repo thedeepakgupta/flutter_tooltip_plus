@@ -147,7 +147,7 @@ class FlutterTooltipState extends State<FlutterTooltip> with SingleTickerProvide
 
   @override
   Widget build(BuildContext context) {
-    return OverlayPortal.targetsRootOverlay(
+    return OverlayPortal(
       controller: _overlayController,
       child: GestureDetector(onTap: _toggle, child: widget.child),
       overlayChildBuilder: (context) {
