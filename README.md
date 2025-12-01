@@ -17,6 +17,15 @@ A lightweight and customizable Flutter tooltip widget for displaying helpful hin
 
 ---
 
+## Example
+<img src="https://github.com/thedeepakgupta/flutter_tooltip_plus/blob/main/screen/left.png?raw=true" width=360/>
+<img src="https://github.com/thedeepakgupta/flutter_tooltip_plus/blob/main/screen/right.png?raw=true" width=360/>
+<img src="https://github.com/thedeepakgupta/flutter_tooltip_plus/blob/main/screen/left-bottom.png?raw=true" width=360/>
+<img src="https://github.com/thedeepakgupta/flutter_tooltip_plus/blob/main/screen/right-bottom.png?raw=true" width=360/>
+
+---
+
+
 ## 📦 Installation
 
 Add this to your `pubspec.yaml`:
